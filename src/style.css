@@ -1,0 +1,113 @@
+body {
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/117/197/original/pexels-florin-capilnean-4507866.jpg?1709317190);
+  font-family: "Merriweather", serif;
+}
+
+.container {
+  margin: 120px auto;
+  max-width: 600px;
+}
+
+header {
+  margin-bottom: 60px;
+}
+
+h1 {
+  font-weight: 500px;
+  color: beige;
+  font-size: 30px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+main {
+  margin-bottom: 30px;
+}
+.form-container {
+  background-color: #b67b7b;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  padding: 20px 25px;
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+  opacity: 60%;
+}
+
+form {
+  display: flex;
+}
+
+.hint {
+  line-height: 1.5;
+  margin-top: 10px;
+  font-size: 12px;
+  opacity: 0.6;
+}
+
+.instructions {
+  padding: 16px;
+  border: 1px solid rgba(39, 33, 66, 0.5);
+  width: 80%;
+  font-size: 16px;
+  border-radius: 50px;
+  line-height: 20px;
+  font-family: "Merriweather", serif;
+}
+
+.submit-button {
+  margin-left: 10px;
+  background-color: #a32626;
+  color: #ffffff;
+  border: none;
+  padding: 14px 24px;
+  width: 150px;
+  border-radius: 50px;
+  font-size: 16px;
+  font-family: "Merriweather", serif;
+  transition: all 200ms ease-in-out;
+}
+
+.submit-button:hover {
+  background: #c5959f;
+  cursor: pointer;
+}
+
+.poem {
+  font-size: 16px;
+  background-color: #ffffff;
+  padding: 20px;
+  line-height: 2;
+  border-left: 3px solid #970422;
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.03);
+  opacity: 60%;
+}
+
+.hidden {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+  color: #a2c13b;
+}
+
+footer {
+  color: aliceblue;
+  text-align: center;
+  font-size: 13px;
+  margin-top: 40px;
+}
+
+.generating {
+  animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
